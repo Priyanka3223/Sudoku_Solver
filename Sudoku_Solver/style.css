@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(146, 241, 224);
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 60px;
+    border: 2px solid blue;
+    background-color: rgb(33, 88, 94);
+} 
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#logo img{
+    margin: 13px;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+#name{
+    width: 62%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+    margin: 10px auto ;
+}
+
+.sudoku_grid div{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+.Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 80px;
+}
+
+#GetPuzzle,#SolvePuzzle{
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ce5236;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 2px solid #1c0f0c;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 10px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+#GetPuzzle:hover,#SolvePuzzle:hover{
+    background-color: rgb(239, 225, 27);
+    color: black;
+}
+.box1{
+    background-color: black;
+    border: 2px solid  white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.box1:hover{
+    background-color: #d1f27f;
+    color: black;
+}
+
+.box2{
+    background-color: black;
+    border: 2px solid  white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.box2:hover{
+    background-color: #d1f27f;
+    color: black;
+}
+
+.box3{
+    background-color: black;
+    border: 2px solid  white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.box3:hover{
+    background-color: #d1f27f;
+    color: black
+}
+
+.bl{
+    border-left: 4px solid black;
+}
+
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
+}
